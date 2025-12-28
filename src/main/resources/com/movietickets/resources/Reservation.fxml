@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="950.0" prefWidth="850.0" style="-fx-background-color: #1A1D3A;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.movietickets.ui.Controller.ReservationController">
+   <children>
+
+      <VBox alignment="TOP_CENTER" spacing="15.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <padding>
+            <Insets bottom="20.0" top="30.0" />
+         </padding>
+         <children>
+
+            <VBox alignment="CENTER" spacing="5.0">
+               <children>
+                  <Label text="Reservation Page" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="28.0" />
+                     </font>
+                  </Label>
+                  <Label text="----------------------" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+
+            <HBox alignment="CENTER" spacing="15.0">
+               <children>
+                  <Label prefWidth="160.0" text="ReservationID:" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="myReservationID" editable="false" prefWidth="250.0" promptText="ReservationID" style="-fx-background-radius: 5;" />
+               </children>
+            </HBox>
+
+            <HBox alignment="CENTER" spacing="15.0">
+               <children>
+                  <Label prefWidth="160.0" text="User:" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="myuser" editable="false" prefWidth="250.0" promptText="User" style="-fx-background-radius: 5;" />
+               </children>
+            </HBox>
+
+            <HBox alignment="CENTER" spacing="15.0">
+               <children>
+                  <Label prefWidth="160.0" text="Show:" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="myShow" editable="false" prefWidth="250.0" promptText="Show" style="-fx-background-radius: 5;" />
+               </children>
+            </HBox>
+
+            <HBox alignment="CENTER" spacing="15.0">
+               <children>
+                  <Label prefWidth="160.0" text="Seats:" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="myseatIDs" editable="false" prefWidth="250.0" promptText="Seats IDs" style="-fx-background-radius: 5;" />
+               </children>
+            </HBox>
+
+            <HBox alignment="CENTER" spacing="15.0">
+               <children>
+                  <Label prefWidth="160.0" text="Reservation Time:" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="myReservationTime" editable="false" prefWidth="250.0" promptText="Reservation Time" style="-fx-background-radius: 5;" />
+               </children>
+            </HBox>
+
+            <HBox alignment="CENTER" spacing="15.0">
+               <children>
+                  <Label prefWidth="160.0" text="Status:" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="myStatus" editable="false" prefWidth="250.0" promptText="Status" style="-fx-background-radius: 5;" />
+               </children>
+            </HBox>
+
+            <HBox alignment="CENTER" spacing="15.0">
+               <children>
+                  <Label prefWidth="160.0" text="Total Price:" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="myTotalPrice" editable="false" prefWidth="250.0" promptText="Total Price" style="-fx-background-radius: 5;" />
+               </children>
+            </HBox>
+
+            <HBox alignment="CENTER" spacing="20.0">
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+               <children>
+                  <Button fx:id="mypayment" mnemonicParsing="false" onAction="#goPayment" prefHeight="35.0" prefWidth="120.0" style="-fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #000000 0.0%, #30059e 100.0%); -fx-background-radius: 8;" text="Payment" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+
+                  <Button fx:id="mycomplete" mnemonicParsing="false" onAction="#goComplete" prefHeight="35.0" prefWidth="120.0" style="-fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #000000 0.0%, #30059e 100.0%); -fx-background-radius: 8;" text="Complete" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+
+                  <Button fx:id="mycancel" mnemonicParsing="false" onAction="#goCancel" prefHeight="35.0" prefWidth="120.0" style="-fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #000000 0.0%, #30059e 100.0%); -fx-background-radius: 8;" text="Cancel" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+
+            <VBox alignment="CENTER" spacing="10.0">
+               <children>
+                  <Label fx:id="myLabelDetails" text="Reservation Details:" textFill="WHITE" visible="false">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextArea fx:id="myTextAreaDetails" editable="false" maxWidth="500.0" prefHeight="150.0" prefWidth="500.0" promptText="Reservation Details" style="-fx-control-inner-background: #1A1D3A; -fx-text-fill: white; -fx-background-color: #1A1D3A; -fx-border-color: white; -fx-border-radius: 5;" visible="false" wrapText="true" />
+               </children>
+            </VBox>
+
+            <Button fx:id="myback" mnemonicParsing="false" onAction="#goBack" prefHeight="35.0" prefWidth="150.0" style="-fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #000000 0.0%, #30059e 100.0%); -fx-background-radius: 8;" text="Back" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="myback1" mnemonicParsing="false" onAction="#goMovie" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #000000 0.0%, #30059e 100.0%); -fx-background-radius: 8;" text="Back To Movies" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

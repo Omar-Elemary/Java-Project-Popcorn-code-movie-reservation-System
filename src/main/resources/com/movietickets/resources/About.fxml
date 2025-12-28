@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="850.0" prefWidth="850.0" style="-fx-background-color: #1A1D3A;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.movietickets.ui.Controller.AboutController" alignment="TOP_CENTER" fillWidth="true">
+    <children>
+        <VBox alignment="CENTER" spacing="5.0">
+            <children>
+                <Label text="About Page" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold Italic" size="28.0" />
+                    </font>
+                </Label>
+                <Label text="----------------" textFill="WHITE">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+            </children>
+            <padding>
+                <Insets top="20.0" />
+            </padding>
+        </VBox>
+
+        <HBox alignment="CENTER_LEFT">
+            <children>
+                <Label text="History Of Our Cinema:" textFill="WHITE">
+                    <font>
+                        <Font name="System Italic" size="22.0" />
+                    </font>
+                </Label>
+            </children>
+            <padding>
+                <Insets left="30.0" top="20.0" />
+            </padding>
+        </HBox>
+        <HBox alignment="TOP_LEFT">
+            <children>
+                <Label text="Origins and Early Concepts&#10;The roots of cinema can be traced back to the mid-18th century, when several European scientists began exploring ways to capture and display motion. The earliest significant attempt came in 1764, when French inventor Emile Laurent created a primitive device called the Optic Motion Mirror, which produced shifting light patterns but could not record real images.&#10;&#10;The idea evolved slowly until 1829, a year considered by many historians as the true birth of modern cinema. That year, Italian researcher Marco Dellaventa introduced the first machine capable of capturing sequential images on a long glass strip. He named it the Life Recorder, though it required direct sunlight and could only capture a few moments at a time.&#10;&#10;The Foundation Era (1840–1880)&#10;During the 1840s, cinema began taking a more recognizable shape. In 1843, German inventor Johann Schroder opened the first workshop dedicated to producing “motion strips.” These early films were extremely short, often lasting no more than six seconds.&#10;By 1861, the world saw the opening of the first public screening hall in the Spanish city of Marcia. The shows, known as “Living Windows,” attracted large audiences and encouraged further innovation. By 1879, advances in recording technology made it possible to create films lasting up to 45 seconds—a major breakthrough at the time.&#10;&#10;The First Golden Age (1880–1910)&#10;This era marked the rise of true cinematic culture. In 1884, American engineer Thomas Ramford invented the first electric film projector, allowing films to be shown indoors without relying on natural sunlight.&#10;The first dramatic film, “The Sailor’s Journey,” was produced in 1892, featuring actors and a simple storyline—something revolutionary for its time.&#10;In 1905, Russian producer Ivan Korsky established the first large-scale film studio. His studio included permanent sets, dedicated lighting rooms, and one of the earliest editing workshops.&#10;&#10;Global Expansion (1910–1930)&#10;Cinema expanded rapidly across continents thanks to the invention of the Quick-Silver Film Strip in 1917, which made it possible to shoot longer and clearer films.&#10;In 1923, audiences witnessed a milestone: the first film that included pre-recorded sound effects.&#10;Five years later, in 1928, the world was transformed again with the release of “City of Echoes,” the first fully talking film, marking the beginning of the sound era and setting a new standard for filmmakers everywhere.&#10;&#10;Conclusion&#10;This fictional history outlines the evolution of cinema across several major stages:&#10;Early scientific experimentation&#10;Development of motion-recording devices&#10;Opening of the first screening halls&#10;Creation of film studios&#10;Introduction of dramatic storytelling&#10;Arrival of sound films" textFill="WHITE" wrapText="true" maxWidth="Infinity" HBox.hgrow="ALWAYS">
+                    <font>
+                        <Font name="System Bold Italic" size="18.0" />
+                    </font>
+                    <padding>
+                        <Insets bottom="30.0" left="0.0" right="0.0" top="10.0" />
+                    </padding>
+                </Label>
+            </children>
+            <padding>
+                <Insets left="30.0" right="30.0" />
+            </padding>
+        </HBox>
+
+        <HBox alignment="CENTER" prefHeight="120.0" style="-fx-background-color: #2F2A6D;">
+            <children>
+                <VBox alignment="CENTER" HBox.hgrow="ALWAYS">
+                    <children>
+                        <HBox alignment="CENTER" spacing="15.0">
+                            <children>
+                                <Hyperlink fx:id="mylocation" onAction="#goLocation" text="Our Location" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Italic" size="24.0" />
+                                    </font>
+                                </Hyperlink>
+                                <Hyperlink fx:id="myhome" onAction="#goHome" text="Home" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Italic" size="24.0" />
+                                    </font>
+                                </Hyperlink>
+                                <Hyperlink fx:id="mypdf" onAction="#downloadPDF" text="FAQ" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Italic" size="24.0" />
+                                    </font>
+                                </Hyperlink>
+                                <Hyperlink fx:id="mycontact" onAction="#goContact" text="Contact With US" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Italic" size="24.0" />
+                                    </font>
+                                </Hyperlink>
+                                <Hyperlink text="About" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Italic" size="24.0" />
+                                    </font>
+                                </Hyperlink>
+                            </children>
+                        </HBox>
+                        <Label alignment="CENTER" text="Made by @Omar @Kareem @Kerolos @Mahmoud CopyRight@2025" textFill="WHITE" wrapText="true">
+                            <font>
+                                <Font name="System Italic" size="16.0" />
+                            </font>
+                            <padding>
+                                <Insets top="10.0" />
+                            </padding>
+                        </Label>
+                    </children>
+                </VBox>
+            </children>
+        </HBox>
+    </children>
+</VBox>

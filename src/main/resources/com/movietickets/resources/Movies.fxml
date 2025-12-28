@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="sceneID" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="916.0" prefWidth="900.0" style="-fx-background-color: #1A1D3A; -fx-background-radius: 10;" styleClass="#1A1D3A" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.movietickets.ui.Controller.MoviesController">
+    <children>
+        <ImageView fx:id="mymovie2" fitHeight="160.0" fitWidth="113.0" layoutX="614.0" layoutY="190.0" onMouseClicked="#showDetails1" onMouseDragEntered="#goVisuable" onMouseDragExited="#goHide" pickOnBounds="true" preserveRatio="true" scaleX="4.0" scaleY="2.0">
+            <image>
+                <Image url="@photos/Movie2.jpeg" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="mymovie1" fitHeight="175.0" fitWidth="102.0" layoutX="170.0" layoutY="198.0" onMouseClicked="#showDetails2" onMouseDragEntered="#goVisuable" onMouseDragExited="#goHide" pickOnBounds="true" preserveRatio="true" scaleX="4.1" scaleY="2.2">
+            <image>
+                <Image url="@photos/comdynight.jpeg" />
+            </image>
+        </ImageView>
+        <Label layoutX="366.0" layoutY="14.0" text="Movies &amp; Shows" textFill="WHITE">
+            <font>
+                <Font name="System Bold Italic" size="30.0" />
+            </font>
+        </Label>
+        <Label layoutX="366.0" layoutY="21.0" prefHeight="58.0" prefWidth="227.0" text="--------------" textFill="WHITE">
+            <font>
+                <Font size="40.0" />
+            </font>
+        </Label>
+        <ImageView fx:id="mymovie3" fitHeight="150.0" fitWidth="200.0" layoutX="167.0" layoutY="514.0" onMouseDragEntered="#goVisuable" onMouseDragExited="#goHide" pickOnBounds="true" preserveRatio="true" scaleX="4.0" scaleY="2.0">
+            <image>
+                <Image url="@photos/Movie3.jpeg" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="mymovie4" fitHeight="150.0" fitWidth="200.0" layoutX="618.0" layoutY="514.0" onMouseDragEntered="#goVisuable" onMouseDragExited="#goHide" pickOnBounds="true" preserveRatio="true" scaleX="4.0" scaleY="2.0">
+            <image>
+                <Image url="@photos/Movie4.jpeg" />
+            </image>
+        </ImageView>
+        <Button fx:id="mysee" layoutX="402.0" layoutY="759.0" mnemonicParsing="false" onAction="#myClick" prefHeight="34.0" prefWidth="95.0" style="-fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #000000 0.0%, #30059e 100.0%);" text="See More" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="21.0" layoutY="1014.0" pickOnBounds="true" preserveRatio="true" />
+
+        <HBox fx:id="HBox1" layoutX="-4.0" layoutY="819.0" prefHeight="97.0" prefWidth="908.0" style="-fx-background-color: #2F2A6D;">
+            <children>
+                <VBox prefHeight="97.0" prefWidth="909.0">
+                    <children>
+                        <HBox prefHeight="65.0" prefWidth="886.0">
+                            <children>
+                                <Hyperlink fx:id="mylocation" alignment="CENTER" onAction="#goLocation" prefHeight="65.0" prefWidth="208.0" text="our Location" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Bold Italic" size="32.0" />
+                                    </font>
+                                </Hyperlink>
+                                <Hyperlink fx:id="home" alignment="CENTER" onAction="#goHome" prefHeight="65.0" prefWidth="150.0" text="Home" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Bold Italic" size="32.0" />
+                                    </font>
+                                </Hyperlink>
+                                <Hyperlink fx:id="mypdf" alignment="CENTER" onAction="#downloadPDF" prefHeight="65.0" prefWidth="127.0" text="FAQ" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Bold Italic" size="32.0" />
+                                    </font>
+                                </Hyperlink>
+                                <Hyperlink fx:id="contact" alignment="CENTER" onAction="#goContact" prefHeight="65.0" prefWidth="268.0" text="Contact With US" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Bold Italic" size="32.0" />
+                                    </font>
+                                </Hyperlink>
+                                <Hyperlink fx:id="about" alignment="CENTER" onAction="#goAbout" prefHeight="65.0" prefWidth="164.0" text="About" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Bold Italic" size="32.0" />
+                                    </font>
+                                </Hyperlink>
+                            </children>
+                        </HBox>
+                        <Label alignment="CENTER" prefHeight="32.0" prefWidth="909.0" text="Made by @Omar @Kareem @Kerolos @Mahmoud CopyRight@2025" textFill="WHITE" wrapText="true">
+                            <font>
+                                <Font name="System Italic" size="18.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </VBox>
+            </children>
+        </HBox>
+      <VBox fx:id="VBox1" layoutX="413.0" layoutY="798.0" prefHeight="2307.0" prefWidth="434.0" visible="false">
+         <children>
+            <HBox prefHeight="427.0" prefWidth="434.0">
+               <children>
+                  <ImageView fx:id="mymovie6" fitHeight="212.0" fitWidth="101.0" onMouseEntered="#goVisuable" onMouseExited="#goHide" pickOnBounds="true" preserveRatio="true" scaleX="4.3" scaleY="2.3" translateX="165.0" translateY="100.0">
+                     <image>
+                        <Image url="@photos/Movie6.jpeg" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="myLable6" prefHeight="152.0" prefWidth="355.0" text="Label" textFill="WHITE" visible="false">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="417.0" prefWidth="434.0">
+               <children>
+                  <ImageView fx:id="mymovie8" fitHeight="150.0" fitWidth="105.0" onMouseEntered="#goVisuable" onMouseExited="#goHide" pickOnBounds="true" preserveRatio="true" scaleX="4.5" scaleY="2.2" translateX="170.0" translateY="95.0">
+                     <image>
+                        <Image url="@photos/Movie8.jpeg" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="myLable8" prefHeight="32.0" prefWidth="67.0" text="Label" textFill="WHITE" visible="false">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="360.0" prefWidth="434.0">
+               <children>
+                  <ImageView fx:id="mymovie10" fitHeight="150.0" fitWidth="200.0" onMouseEntered="#goVisuable" onMouseExited="#goHide" pickOnBounds="true" preserveRatio="true" scaleX="4.5" scaleY="1.8" translateX="170.0" translateY="60.0">
+                     <image>
+                        <Image url="@photos/Movie10.jpeg" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="myLable10" prefHeight="32.0" prefWidth="67.0" text="Label" textFill="WHITE" visible="false">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="306.0" prefWidth="434.0">
+               <children>
+                  <ImageView fx:id="mymovie12" fitHeight="150.0" fitWidth="200.0" onMouseEntered="#goVisuable" onMouseExited="#goHide" pickOnBounds="true" preserveRatio="true" scaleX="4.3" scaleY="1.5" translateX="165.0" translateY="32.0">
+                     <image>
+                        <Image url="@photos/Movie12.jpeg" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="myLable12" prefHeight="32.0" prefWidth="67.0" text="Label" textFill="WHITE" visible="false">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="393.0" prefWidth="434.0">
+               <children>
+                  <ImageView fx:id="mymovie14" fitHeight="150.0" fitWidth="200.0" onMouseEntered="#goVisuable" onMouseExited="#goHide" pickOnBounds="true" preserveRatio="true" scaleX="2.2" scaleY="2.3" translateX="120.0" translateY="92.0">
+                     <image>
+                        <Image url="@photos/Movie14.jpeg" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="myLable14" prefHeight="32.0" prefWidth="67.0" text="Label" textFill="WHITE" visible="false">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="329.0" prefWidth="434.0">
+               <children>
+                  <ImageView fx:id="mymovie16" fitHeight="150.0" fitWidth="200.0" onMouseEntered="#goVisuable" onMouseExited="#goHide" pickOnBounds="true" preserveRatio="true" scaleX="2.2" scaleY="1.9" translateX="120.0" translateY="60.0">
+                     <image>
+                        <Image url="@photos/Movie16.jpeg" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="myLable16" prefHeight="32.0" prefWidth="67.0" text="Label" textFill="WHITE" visible="false">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="422.0" prefWidth="434.0">
+               <children>
+                  <ImageView fx:id="mymovie18" fitHeight="150.0" fitWidth="200.0" onMouseEntered="#goVisuable" onMouseExited="#goHide" pickOnBounds="true" preserveRatio="true" scaleX="4.4" scaleY="2.2" translateX="170.0" translateY="100.0">
+                     <image>
+                        <Image url="@photos/Movie18.jpeg" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="myLable18" prefHeight="32.0" prefWidth="67.0" text="Label" textFill="WHITE" visible="false">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="305.0" prefWidth="434.0">
+               <children>
+                  <ImageView fx:id="mymovie19" fitHeight="168.0" fitWidth="178.0" onMouseEntered="#goVisuable" onMouseExited="#goHide" pickOnBounds="true" preserveRatio="true" scaleX="2.5" scaleY="1.5" translateX="130.0" translateY="40.0">
+                     <image>
+                        <Image url="@photos/Movie20.jpeg" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="myLable19" prefHeight="32.0" prefWidth="67.0" text="Label" textFill="WHITE" visible="false">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox fx:id="VBox2" layoutX="2.0" layoutY="806.0" prefHeight="2314.0" prefWidth="395.0" visible="false">
+         <children>
+            <HBox prefHeight="342.0" prefWidth="395.0">
+               <children>
+                  <ImageView fx:id="mymovie5" fitHeight="150.0" fitWidth="105.0" onMouseEntered="#goVisuable" onMouseExited="#goHide" pickOnBounds="true" preserveRatio="true" scaleX="4.0" scaleY="2.2" translateX="150.0" translateY="90.0">
+                     <image>
+                        <Image url="@photos/Movie7.jpeg" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="myLable5" prefHeight="32.0" prefWidth="67.0" text="Label" textFill="WHITE" visible="false">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="327.0" prefWidth="395.0">
+               <children>
+                  <ImageView fx:id="mymovie7" fitHeight="150.0" fitWidth="200.0" onMouseEntered="#goVisuable" onMouseExited="#goHide" pickOnBounds="true" preserveRatio="true" scaleX="4.0" scaleY="2.1" translateX="150.0" translateY="85.0">
+                     <image>
+                        <Image url="@photos/Movie9.jpeg" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="myLable7" prefHeight="32.0" prefWidth="67.0" text="Label" textFill="WHITE" visible="false">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="281.0" prefWidth="395.0">
+               <children>
+                  <ImageView fx:id="mymovie9" fitHeight="150.0" fitWidth="200.0" onMouseEntered="#goVisuable" onMouseExited="#goHide" pickOnBounds="true" preserveRatio="true" scaleX="4.0" scaleY="1.8" translateX="150.0" translateY="60.0">
+                     <image>
+                        <Image url="@photos/Movie11.jpeg" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="myLable9" prefHeight="32.0" prefWidth="67.0" text="Label" textFill="WHITE" visible="false">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="290.0" prefWidth="395.0">
+               <children>
+                  <ImageView fx:id="mymovie11" fitHeight="150.0" fitWidth="200.0" onMouseEntered="#goVisuable" onMouseExited="#goHide" pickOnBounds="true" preserveRatio="true" scaleX="2.7" scaleY="1.9" translateX="125.0" translateY="70.0">
+                     <image>
+                        <Image url="@photos/Movie13.jpeg" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="myLable11" prefHeight="32.0" prefWidth="67.0" text="Label" textFill="WHITE" visible="false">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="249.0" prefWidth="395.0">
+               <children>
+                  <ImageView fx:id="mymovie13" fitHeight="150.0" fitWidth="200.0" onMouseEntered="#goVisuable" onMouseExited="#goHide" pickOnBounds="true" preserveRatio="true" scaleX="4.0" scaleY="1.6" translateX="150.0" translateY="48.0">
+                     <image>
+                        <Image url="@photos/Movie15.jpeg" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="myLable13" prefHeight="32.0" prefWidth="67.0" text="Label" textFill="WHITE" visible="false">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="269.0" prefWidth="395.0">
+               <children>
+                  <ImageView fx:id="mymovie15" fitHeight="150.0" fitWidth="200.0" onMouseEntered="#goVisuable" onMouseExited="#goHide" pickOnBounds="true" preserveRatio="true" scaleX="3.9" scaleY="1.7" translateX="150.0" translateY="55.0">
+                     <image>
+                        <Image url="@photos/Movie17.jpeg" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="myLable15" prefHeight="32.0" prefWidth="67.0" text="Label" textFill="WHITE" visible="false">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="318.0" prefWidth="395.0">
+               <children>
+                  <ImageView fx:id="mymovie17" fitHeight="150.0" fitWidth="200.0" onMouseEntered="#goVisuable" onMouseExited="#goHide" pickOnBounds="true" preserveRatio="true" scaleX="2.0" scaleY="2.2" translateX="100.0" translateY="85.0">
+                     <image>
+                        <Image url="@photos/Movie19.jpeg" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="myLable17" prefHeight="32.0" prefWidth="67.0" text="Label" textFill="WHITE" visible="false">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Label fx:id="myLable2" alignment="CENTER" layoutX="455.0" layoutY="128.0" maxWidth="1.7976931348623157E308" prefHeight="131.0" prefWidth="440.0" text="Label" textFill="WHITE" visible="false" wrapText="true">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="myLable1" alignment="CENTER" layoutX="18.0" layoutY="151.0" maxWidth="1.7976931348623157E308" prefHeight="131.0" prefWidth="405.0" text="Label" textFill="WHITE" visible="false" wrapText="true">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="myLable3" alignment="CENTER" layoutX="22.0" layoutY="483.0" maxWidth="1.7976931348623157E308" prefHeight="150.0" prefWidth="408.0" text="Label" textFill="WHITE" visible="false" wrapText="true">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="myLable4" alignment="CENTER" layoutX="448.0" layoutY="474.0" maxWidth="1.7976931348623157E308" prefHeight="131.0" prefWidth="438.0" text="Label" textFill="WHITE" visible="false" wrapText="true">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+        <Button fx:id="mymenuButton" mnemonicParsing="false" onAction="#ControllButtons" prefHeight="60.0" prefWidth="149.0" style="-fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #000000 0.0%, #30059e 100.0%);" text="☰" textFill="WHITE">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+        <VBox fx:id="myVboxButtons" layoutY="60.0" prefHeight="298.0" prefWidth="149.0" visible="false">
+            <children>
+                <Button fx:id="myhome" mnemonicParsing="false" onAction="#goHome" prefHeight="59.0" prefWidth="149.0" style="-fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #000000 0.0%, #30059e 100.0%); -fx-background-radius: 8;" text="Home" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold Italic" size="26.0" />
+                    </font>
+                </Button>
+                <Button fx:id="myLogin" layoutX="357.0" layoutY="333.0" mnemonicParsing="false" onAction="#goLogin" prefHeight="59.0" prefWidth="167.0" style="-fx-background-radius: 8; -fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #782929 0.0%, #ffffff 100.0%);" text="Login">
+                    <font>
+                        <Font name="System Bold Italic" size="22.0" />
+                    </font>
+                </Button>
+                <Button fx:id="mymovie" mnemonicParsing="false" prefHeight="59.0" prefWidth="155.0" style="-fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #000000 0.0%, #30059e 100.0%); -fx-background-radius: 8;" text="Movies" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold Italic" size="24.0" />
+                    </font>
+                </Button>
+                <Button fx:id="mycinema" mnemonicParsing="false" onAction="#goCinema" prefHeight="59.0" prefWidth="151.0" style="-fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #000000 0.0%, #30059e 100.0%); -fx-background-radius: 8;" text="Cinema" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold Italic" size="23.0" />
+                    </font>
+                </Button>
+                <Button fx:id="mycontact" mnemonicParsing="false" onAction="#goContact" prefHeight="59.0" prefWidth="152.0" style="-fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #000000 0.0%, #30059e 100.0%); -fx-background-radius: 8;" text="Contact With US" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold Italic" size="16.0" />
+                    </font>
+                </Button>
+         </children>
+      </VBox>
+
+    </children>
+</AnchorPane>
