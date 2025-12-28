@@ -156,47 +156,6 @@ The application uses JSON files for data persistence. All data is stored in the 
 - `payments.json`: Payment records
 - `tickets.json`: Generated tickets
 
-## Development
-
-### Building from Source
-
-```bash
-# Clean and compile
-mvn clean compile
-
-# Package the application
-mvn clean package
-
-# Run tests (if available)
-mvn test
-```
-
-### Running the Console Demo
-
-The project includes a console-based demo in `Main.java`:
-
-```bash
-mvn exec:java -Dexec.mainClass="com.movietickets.Main"
-```
-
-This demonstrates the core functionality without the GUI.
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-This project is part of a college assignment. Please check with the project owner for licensing information.
-
-## Authors
-
-- Developed as part of a college Java programming course
-
 ## Acknowledgments
 
 - JavaFX community for excellent documentation
@@ -204,13 +163,8 @@ This project is part of a college assignment. Please check with the project owne
 - Google Gson for JSON processing
 - iTextPDF for PDF generation capabilities
 
-## Screenshots
-
-*Add screenshots of your application here to showcase the UI*
-
 ## Future Enhancements
 
-- [ ] Database integration (replace JSON files)
 - [ ] Online payment gateway integration
 - [ ] Email notifications for bookings
 - [ ] Mobile application version
@@ -218,7 +172,4 @@ This project is part of a college assignment. Please check with the project owne
 - [ ] Multi-cinema support
 - [ ] Loyalty program integration
 
----
-
-**Note**: This is a desktop application. Ensure JavaFX runtime is properly configured in your environment.
 
