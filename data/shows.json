@@ -1,0 +1,4622 @@
+[
+  {
+    "showID": 2,
+    "startTime": "21:00",
+    "date": "2024-01-15",
+    "movieID": {
+      "movieId": 2,
+      "title": "Comedy Night",
+      "description": "A hilarious comedy",
+      "duration": 90,
+      "rating": 7.8,
+      "category": "Comedy"
+    },
+    "hallID": {
+      "hallID": 1,
+      "capacity": 100,
+      "seats": [
+        {
+          "seatID": 11,
+          "row": "A",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 12,
+          "row": "A",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 13,
+          "row": "A",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 14,
+          "row": "A",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 15,
+          "row": "A",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 16,
+          "row": "A",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 17,
+          "row": "A",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 18,
+          "row": "A",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 19,
+          "row": "A",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 20,
+          "row": "A",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 21,
+          "row": "B",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 22,
+          "row": "B",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 23,
+          "row": "B",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 24,
+          "row": "B",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 25,
+          "row": "B",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 26,
+          "row": "B",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 27,
+          "row": "B",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 28,
+          "row": "B",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 29,
+          "row": "B",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 30,
+          "row": "B",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 31,
+          "row": "C",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 32,
+          "row": "C",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 33,
+          "row": "C",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 34,
+          "row": "C",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 35,
+          "row": "C",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 36,
+          "row": "C",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 37,
+          "row": "C",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 38,
+          "row": "C",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 39,
+          "row": "C",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 40,
+          "row": "C",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 41,
+          "row": "D",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 42,
+          "row": "D",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 43,
+          "row": "D",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 44,
+          "row": "D",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 45,
+          "row": "D",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 46,
+          "row": "D",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 47,
+          "row": "D",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 48,
+          "row": "D",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 49,
+          "row": "D",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 50,
+          "row": "D",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 51,
+          "row": "E",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 52,
+          "row": "E",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 53,
+          "row": "E",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 54,
+          "row": "E",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 55,
+          "row": "E",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 56,
+          "row": "E",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 57,
+          "row": "E",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 58,
+          "row": "E",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 59,
+          "row": "E",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 60,
+          "row": "E",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 61,
+          "row": "F",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 62,
+          "row": "F",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 63,
+          "row": "F",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 64,
+          "row": "F",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 65,
+          "row": "F",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 66,
+          "row": "F",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 67,
+          "row": "F",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 68,
+          "row": "F",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 69,
+          "row": "F",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 70,
+          "row": "F",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 71,
+          "row": "G",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 72,
+          "row": "G",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 73,
+          "row": "G",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 74,
+          "row": "G",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 75,
+          "row": "G",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 76,
+          "row": "G",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 77,
+          "row": "G",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 78,
+          "row": "G",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 79,
+          "row": "G",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 80,
+          "row": "G",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 81,
+          "row": "H",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 82,
+          "row": "H",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 83,
+          "row": "H",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 84,
+          "row": "H",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 85,
+          "row": "H",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 86,
+          "row": "H",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 87,
+          "row": "H",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 88,
+          "row": "H",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 89,
+          "row": "H",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 90,
+          "row": "H",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 91,
+          "row": "I",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 92,
+          "row": "I",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 93,
+          "row": "I",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 94,
+          "row": "I",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 95,
+          "row": "I",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 96,
+          "row": "I",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 97,
+          "row": "I",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 98,
+          "row": "I",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 99,
+          "row": "I",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 100,
+          "row": "I",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 101,
+          "row": "J",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 102,
+          "row": "J",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 103,
+          "row": "J",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 104,
+          "row": "J",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 105,
+          "row": "J",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 106,
+          "row": "J",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 107,
+          "row": "J",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 108,
+          "row": "J",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 109,
+          "row": "J",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 110,
+          "row": "J",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        }
+      ]
+    },
+    "seatIDs": []
+  },
+  {
+    "showID": 1,
+    "startTime": "19:00",
+    "date": "2024-01-15",
+    "movieID": {
+      "movieId": 1,
+      "title": "The Great Adventure",
+      "description": "An epic adventure story",
+      "duration": 120,
+      "rating": 0.0,
+      "category": "Action"
+    },
+    "hallID": {
+      "hallID": 1,
+      "capacity": 100,
+      "seats": [
+        {
+          "seatID": 11,
+          "row": "A",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 12,
+          "row": "A",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 13,
+          "row": "A",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 14,
+          "row": "A",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 15,
+          "row": "A",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 16,
+          "row": "A",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 17,
+          "row": "A",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 18,
+          "row": "A",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 19,
+          "row": "A",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 20,
+          "row": "A",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 21,
+          "row": "B",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 22,
+          "row": "B",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 23,
+          "row": "B",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 24,
+          "row": "B",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 25,
+          "row": "B",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 26,
+          "row": "B",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 27,
+          "row": "B",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 28,
+          "row": "B",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 29,
+          "row": "B",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 30,
+          "row": "B",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 31,
+          "row": "C",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 32,
+          "row": "C",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 33,
+          "row": "C",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 34,
+          "row": "C",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 35,
+          "row": "C",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 36,
+          "row": "C",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 37,
+          "row": "C",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 38,
+          "row": "C",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 39,
+          "row": "C",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 40,
+          "row": "C",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 41,
+          "row": "D",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 42,
+          "row": "D",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 43,
+          "row": "D",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 44,
+          "row": "D",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 45,
+          "row": "D",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 46,
+          "row": "D",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 47,
+          "row": "D",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 48,
+          "row": "D",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 49,
+          "row": "D",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 50,
+          "row": "D",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 51,
+          "row": "E",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 52,
+          "row": "E",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 53,
+          "row": "E",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 54,
+          "row": "E",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 55,
+          "row": "E",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 56,
+          "row": "E",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 57,
+          "row": "E",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 58,
+          "row": "E",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 59,
+          "row": "E",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 60,
+          "row": "E",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 61,
+          "row": "F",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 62,
+          "row": "F",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 63,
+          "row": "F",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 64,
+          "row": "F",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 65,
+          "row": "F",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 66,
+          "row": "F",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 67,
+          "row": "F",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 68,
+          "row": "F",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 69,
+          "row": "F",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 70,
+          "row": "F",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 71,
+          "row": "G",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 72,
+          "row": "G",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 73,
+          "row": "G",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 74,
+          "row": "G",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 75,
+          "row": "G",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 76,
+          "row": "G",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 77,
+          "row": "G",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 78,
+          "row": "G",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 79,
+          "row": "G",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 80,
+          "row": "G",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 81,
+          "row": "H",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 82,
+          "row": "H",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 83,
+          "row": "H",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 84,
+          "row": "H",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 85,
+          "row": "H",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 86,
+          "row": "H",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 87,
+          "row": "H",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 88,
+          "row": "H",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 89,
+          "row": "H",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 90,
+          "row": "H",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 91,
+          "row": "I",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 92,
+          "row": "I",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 93,
+          "row": "I",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 94,
+          "row": "I",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 95,
+          "row": "I",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 96,
+          "row": "I",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 97,
+          "row": "I",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 98,
+          "row": "I",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 99,
+          "row": "I",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 100,
+          "row": "I",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 101,
+          "row": "J",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 102,
+          "row": "J",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 103,
+          "row": "J",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 104,
+          "row": "J",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 105,
+          "row": "J",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 106,
+          "row": "J",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 107,
+          "row": "J",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 108,
+          "row": "J",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 109,
+          "row": "J",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 110,
+          "row": "J",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        }
+      ]
+    },
+    "seatIDs": []
+  },
+  {
+    "showID": 2,
+    "startTime": "21:00",
+    "date": "2024-01-15",
+    "movieID": {
+      "movieId": 2,
+      "title": "Comedy Night",
+      "description": "A hilarious comedy",
+      "duration": 90,
+      "rating": 0.0,
+      "category": "Comedy"
+    },
+    "hallID": {
+      "hallID": 1,
+      "capacity": 100,
+      "seats": [
+        {
+          "seatID": 11,
+          "row": "A",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 12,
+          "row": "A",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 13,
+          "row": "A",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 14,
+          "row": "A",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 15,
+          "row": "A",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 16,
+          "row": "A",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 17,
+          "row": "A",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 18,
+          "row": "A",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 19,
+          "row": "A",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 20,
+          "row": "A",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 21,
+          "row": "B",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 22,
+          "row": "B",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 23,
+          "row": "B",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 24,
+          "row": "B",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 25,
+          "row": "B",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 26,
+          "row": "B",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 27,
+          "row": "B",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 28,
+          "row": "B",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 29,
+          "row": "B",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 30,
+          "row": "B",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 31,
+          "row": "C",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 32,
+          "row": "C",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 33,
+          "row": "C",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 34,
+          "row": "C",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 35,
+          "row": "C",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 36,
+          "row": "C",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 37,
+          "row": "C",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 38,
+          "row": "C",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 39,
+          "row": "C",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 40,
+          "row": "C",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 41,
+          "row": "D",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 42,
+          "row": "D",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 43,
+          "row": "D",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 44,
+          "row": "D",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 45,
+          "row": "D",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 46,
+          "row": "D",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 47,
+          "row": "D",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 48,
+          "row": "D",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 49,
+          "row": "D",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 50,
+          "row": "D",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 51,
+          "row": "E",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 52,
+          "row": "E",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 53,
+          "row": "E",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 54,
+          "row": "E",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 55,
+          "row": "E",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 56,
+          "row": "E",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 57,
+          "row": "E",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 58,
+          "row": "E",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 59,
+          "row": "E",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 60,
+          "row": "E",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 61,
+          "row": "F",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 62,
+          "row": "F",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 63,
+          "row": "F",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 64,
+          "row": "F",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 65,
+          "row": "F",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 66,
+          "row": "F",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 67,
+          "row": "F",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 68,
+          "row": "F",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 69,
+          "row": "F",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 70,
+          "row": "F",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 71,
+          "row": "G",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 72,
+          "row": "G",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 73,
+          "row": "G",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 74,
+          "row": "G",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 75,
+          "row": "G",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 76,
+          "row": "G",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 77,
+          "row": "G",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 78,
+          "row": "G",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 79,
+          "row": "G",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 80,
+          "row": "G",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 81,
+          "row": "H",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 82,
+          "row": "H",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 83,
+          "row": "H",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 84,
+          "row": "H",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 85,
+          "row": "H",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 86,
+          "row": "H",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 87,
+          "row": "H",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 88,
+          "row": "H",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 89,
+          "row": "H",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 90,
+          "row": "H",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 91,
+          "row": "I",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 92,
+          "row": "I",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 93,
+          "row": "I",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 94,
+          "row": "I",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 95,
+          "row": "I",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 96,
+          "row": "I",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 97,
+          "row": "I",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 98,
+          "row": "I",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 99,
+          "row": "I",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 100,
+          "row": "I",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 101,
+          "row": "J",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 102,
+          "row": "J",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 103,
+          "row": "J",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 104,
+          "row": "J",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 105,
+          "row": "J",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 106,
+          "row": "J",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 107,
+          "row": "J",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 108,
+          "row": "J",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 109,
+          "row": "J",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 110,
+          "row": "J",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        }
+      ]
+    },
+    "seatIDs": []
+  },
+  {
+    "showID": 1,
+    "startTime": "19:00",
+    "date": "2024-01-15",
+    "movieID": {
+      "movieId": 1,
+      "title": "The Great Adventure",
+      "description": "An epic adventure story",
+      "duration": 120,
+      "rating": 0.0,
+      "category": "Action"
+    },
+    "hallID": {
+      "hallID": 1,
+      "capacity": 100,
+      "seats": [
+        {
+          "seatID": 11,
+          "row": "A",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 12,
+          "row": "A",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 13,
+          "row": "A",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 14,
+          "row": "A",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 15,
+          "row": "A",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 16,
+          "row": "A",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 17,
+          "row": "A",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 18,
+          "row": "A",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 19,
+          "row": "A",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 20,
+          "row": "A",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 21,
+          "row": "B",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 22,
+          "row": "B",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 23,
+          "row": "B",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 24,
+          "row": "B",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 25,
+          "row": "B",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 26,
+          "row": "B",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 27,
+          "row": "B",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 28,
+          "row": "B",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 29,
+          "row": "B",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 30,
+          "row": "B",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 31,
+          "row": "C",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 32,
+          "row": "C",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 33,
+          "row": "C",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 34,
+          "row": "C",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 35,
+          "row": "C",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 36,
+          "row": "C",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 37,
+          "row": "C",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 38,
+          "row": "C",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 39,
+          "row": "C",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 40,
+          "row": "C",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 41,
+          "row": "D",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 42,
+          "row": "D",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 43,
+          "row": "D",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 44,
+          "row": "D",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 45,
+          "row": "D",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 46,
+          "row": "D",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 47,
+          "row": "D",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 48,
+          "row": "D",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 49,
+          "row": "D",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 50,
+          "row": "D",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 51,
+          "row": "E",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 52,
+          "row": "E",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 53,
+          "row": "E",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 54,
+          "row": "E",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 55,
+          "row": "E",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 56,
+          "row": "E",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 57,
+          "row": "E",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 58,
+          "row": "E",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 59,
+          "row": "E",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 60,
+          "row": "E",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 61,
+          "row": "F",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 62,
+          "row": "F",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 63,
+          "row": "F",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 64,
+          "row": "F",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 65,
+          "row": "F",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 66,
+          "row": "F",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 67,
+          "row": "F",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 68,
+          "row": "F",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 69,
+          "row": "F",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 70,
+          "row": "F",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 71,
+          "row": "G",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 72,
+          "row": "G",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 73,
+          "row": "G",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 74,
+          "row": "G",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 75,
+          "row": "G",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 76,
+          "row": "G",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 77,
+          "row": "G",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 78,
+          "row": "G",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 79,
+          "row": "G",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 80,
+          "row": "G",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 81,
+          "row": "H",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 82,
+          "row": "H",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 83,
+          "row": "H",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 84,
+          "row": "H",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 85,
+          "row": "H",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 86,
+          "row": "H",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 87,
+          "row": "H",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 88,
+          "row": "H",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 89,
+          "row": "H",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 90,
+          "row": "H",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 91,
+          "row": "I",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 92,
+          "row": "I",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 93,
+          "row": "I",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 94,
+          "row": "I",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 95,
+          "row": "I",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 96,
+          "row": "I",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 97,
+          "row": "I",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 98,
+          "row": "I",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 99,
+          "row": "I",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 100,
+          "row": "I",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 101,
+          "row": "J",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 102,
+          "row": "J",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 103,
+          "row": "J",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 104,
+          "row": "J",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 105,
+          "row": "J",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 106,
+          "row": "J",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 107,
+          "row": "J",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 108,
+          "row": "J",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 109,
+          "row": "J",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 110,
+          "row": "J",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        }
+      ]
+    },
+    "seatIDs": []
+  },
+  {
+    "showID": 2,
+    "startTime": "21:00",
+    "date": "2024-01-15",
+    "movieID": {
+      "movieId": 2,
+      "title": "Comedy Night",
+      "description": "A hilarious comedy",
+      "duration": 90,
+      "rating": 0.0,
+      "category": "Comedy"
+    },
+    "hallID": {
+      "hallID": 1,
+      "capacity": 100,
+      "seats": [
+        {
+          "seatID": 11,
+          "row": "A",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 12,
+          "row": "A",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 13,
+          "row": "A",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 14,
+          "row": "A",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 15,
+          "row": "A",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 16,
+          "row": "A",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 17,
+          "row": "A",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 18,
+          "row": "A",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 19,
+          "row": "A",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 20,
+          "row": "A",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 21,
+          "row": "B",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 22,
+          "row": "B",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 23,
+          "row": "B",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 24,
+          "row": "B",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 25,
+          "row": "B",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 26,
+          "row": "B",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 27,
+          "row": "B",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 28,
+          "row": "B",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 29,
+          "row": "B",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 30,
+          "row": "B",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 31,
+          "row": "C",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 32,
+          "row": "C",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 33,
+          "row": "C",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 34,
+          "row": "C",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 35,
+          "row": "C",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 36,
+          "row": "C",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 37,
+          "row": "C",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 38,
+          "row": "C",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 39,
+          "row": "C",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 40,
+          "row": "C",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 41,
+          "row": "D",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 42,
+          "row": "D",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 43,
+          "row": "D",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 44,
+          "row": "D",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 45,
+          "row": "D",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 46,
+          "row": "D",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 47,
+          "row": "D",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 48,
+          "row": "D",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 49,
+          "row": "D",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 50,
+          "row": "D",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 51,
+          "row": "E",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 52,
+          "row": "E",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 53,
+          "row": "E",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 54,
+          "row": "E",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 55,
+          "row": "E",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 56,
+          "row": "E",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 57,
+          "row": "E",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 58,
+          "row": "E",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 59,
+          "row": "E",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 60,
+          "row": "E",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 61,
+          "row": "F",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 62,
+          "row": "F",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 63,
+          "row": "F",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 64,
+          "row": "F",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 65,
+          "row": "F",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 66,
+          "row": "F",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 67,
+          "row": "F",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 68,
+          "row": "F",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 69,
+          "row": "F",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 70,
+          "row": "F",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 71,
+          "row": "G",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 72,
+          "row": "G",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 73,
+          "row": "G",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 74,
+          "row": "G",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 75,
+          "row": "G",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 76,
+          "row": "G",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 77,
+          "row": "G",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 78,
+          "row": "G",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 79,
+          "row": "G",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 80,
+          "row": "G",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 81,
+          "row": "H",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 82,
+          "row": "H",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 83,
+          "row": "H",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 84,
+          "row": "H",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 85,
+          "row": "H",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 86,
+          "row": "H",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 87,
+          "row": "H",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 88,
+          "row": "H",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 89,
+          "row": "H",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 90,
+          "row": "H",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 91,
+          "row": "I",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 92,
+          "row": "I",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 93,
+          "row": "I",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 94,
+          "row": "I",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 95,
+          "row": "I",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 96,
+          "row": "I",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 97,
+          "row": "I",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 98,
+          "row": "I",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 99,
+          "row": "I",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 100,
+          "row": "I",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 101,
+          "row": "J",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 102,
+          "row": "J",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 103,
+          "row": "J",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 104,
+          "row": "J",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 105,
+          "row": "J",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 106,
+          "row": "J",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 107,
+          "row": "J",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 108,
+          "row": "J",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 109,
+          "row": "J",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 110,
+          "row": "J",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        }
+      ]
+    },
+    "seatIDs": []
+  },
+  {
+    "showID": 3,
+    "startTime": "16:00",
+    "date": "2024-01-16",
+    "movieID": {
+      "movieId": 3,
+      "title": "Science Fiction",
+      "description": "An amazing sci-fi adventure",
+      "duration": 135,
+      "rating": 8.2,
+      "category": "Science Fiction"
+    },
+    "hallID": {
+      "hallID": 2,
+      "capacity": 80,
+      "seats": [
+        {
+          "seatID": 111,
+          "row": "A",
+          "num": 1,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 112,
+          "row": "A",
+          "num": 2,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 113,
+          "row": "A",
+          "num": 3,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 114,
+          "row": "A",
+          "num": 4,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 115,
+          "row": "A",
+          "num": 5,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 116,
+          "row": "A",
+          "num": 6,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 117,
+          "row": "A",
+          "num": 7,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 118,
+          "row": "A",
+          "num": 8,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 119,
+          "row": "B",
+          "num": 1,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 120,
+          "row": "B",
+          "num": 2,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 121,
+          "row": "B",
+          "num": 3,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 122,
+          "row": "B",
+          "num": 4,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 123,
+          "row": "B",
+          "num": 5,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 124,
+          "row": "B",
+          "num": 6,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 125,
+          "row": "B",
+          "num": 7,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 126,
+          "row": "B",
+          "num": 8,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 127,
+          "row": "C",
+          "num": 1,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 128,
+          "row": "C",
+          "num": 2,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 129,
+          "row": "C",
+          "num": 3,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 130,
+          "row": "C",
+          "num": 4,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 131,
+          "row": "C",
+          "num": 5,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 132,
+          "row": "C",
+          "num": 6,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 133,
+          "row": "C",
+          "num": 7,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 134,
+          "row": "C",
+          "num": 8,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 135,
+          "row": "D",
+          "num": 1,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 136,
+          "row": "D",
+          "num": 2,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 137,
+          "row": "D",
+          "num": 3,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 138,
+          "row": "D",
+          "num": 4,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 139,
+          "row": "D",
+          "num": 5,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 140,
+          "row": "D",
+          "num": 6,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 141,
+          "row": "D",
+          "num": 7,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 142,
+          "row": "D",
+          "num": 8,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 143,
+          "row": "E",
+          "num": 1,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 144,
+          "row": "E",
+          "num": 2,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 145,
+          "row": "E",
+          "num": 3,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 146,
+          "row": "E",
+          "num": 4,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 147,
+          "row": "E",
+          "num": 5,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 148,
+          "row": "E",
+          "num": 6,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 149,
+          "row": "E",
+          "num": 7,
+          "price": 18.0,
+          "status": true
+        },
+        {
+          "seatID": 150,
+          "row": "E",
+          "num": 8,
+          "price": 18.0,
+          "status": true
+        }
+      ]
+    },
+    "seatIDs": []
+  },
+  {
+    "showID": 4,
+    "startTime": "18:30",
+    "date": "2024-01-17",
+    "movieID": {
+      "movieId": 4,
+      "title": "Drama Masterpiece",
+      "description": "An emotional and gripping drama",
+      "duration": 140,
+      "rating": 8.9,
+      "category": "Drama"
+    },
+    "hallID": {
+      "hallID": 1,
+      "capacity": 100,
+      "seats": [
+        {
+          "seatID": 11,
+          "row": "A",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 12,
+          "row": "A",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 13,
+          "row": "A",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 14,
+          "row": "A",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 15,
+          "row": "A",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 16,
+          "row": "A",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 17,
+          "row": "A",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 18,
+          "row": "A",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 19,
+          "row": "A",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 20,
+          "row": "A",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 21,
+          "row": "B",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 22,
+          "row": "B",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 23,
+          "row": "B",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 24,
+          "row": "B",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 25,
+          "row": "B",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 26,
+          "row": "B",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 27,
+          "row": "B",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 28,
+          "row": "B",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 29,
+          "row": "B",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 30,
+          "row": "B",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 31,
+          "row": "C",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 32,
+          "row": "C",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 33,
+          "row": "C",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 34,
+          "row": "C",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 35,
+          "row": "C",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 36,
+          "row": "C",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 37,
+          "row": "C",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 38,
+          "row": "C",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 39,
+          "row": "C",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 40,
+          "row": "C",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 41,
+          "row": "D",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 42,
+          "row": "D",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 43,
+          "row": "D",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 44,
+          "row": "D",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 45,
+          "row": "D",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 46,
+          "row": "D",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 47,
+          "row": "D",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 48,
+          "row": "D",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 49,
+          "row": "D",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 50,
+          "row": "D",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 51,
+          "row": "E",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 52,
+          "row": "E",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 53,
+          "row": "E",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 54,
+          "row": "E",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 55,
+          "row": "E",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 56,
+          "row": "E",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 57,
+          "row": "E",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 58,
+          "row": "E",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 59,
+          "row": "E",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 60,
+          "row": "E",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 61,
+          "row": "F",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 62,
+          "row": "F",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 63,
+          "row": "F",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 64,
+          "row": "F",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 65,
+          "row": "F",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 66,
+          "row": "F",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 67,
+          "row": "F",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 68,
+          "row": "F",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 69,
+          "row": "F",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 70,
+          "row": "F",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 71,
+          "row": "G",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 72,
+          "row": "G",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 73,
+          "row": "G",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 74,
+          "row": "G",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 75,
+          "row": "G",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 76,
+          "row": "G",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 77,
+          "row": "G",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 78,
+          "row": "G",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 79,
+          "row": "G",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 80,
+          "row": "G",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 81,
+          "row": "H",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 82,
+          "row": "H",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 83,
+          "row": "H",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 84,
+          "row": "H",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 85,
+          "row": "H",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 86,
+          "row": "H",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 87,
+          "row": "H",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 88,
+          "row": "H",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 89,
+          "row": "H",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 90,
+          "row": "H",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 91,
+          "row": "I",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 92,
+          "row": "I",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 93,
+          "row": "I",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 94,
+          "row": "I",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 95,
+          "row": "I",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 96,
+          "row": "I",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 97,
+          "row": "I",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 98,
+          "row": "I",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 99,
+          "row": "I",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 100,
+          "row": "I",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 101,
+          "row": "J",
+          "num": 1,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 102,
+          "row": "J",
+          "num": 2,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 103,
+          "row": "J",
+          "num": 3,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 104,
+          "row": "J",
+          "num": 4,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 105,
+          "row": "J",
+          "num": 5,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 106,
+          "row": "J",
+          "num": 6,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 107,
+          "row": "J",
+          "num": 7,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 108,
+          "row": "J",
+          "num": 8,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 109,
+          "row": "J",
+          "num": 9,
+          "price": 15.0,
+          "status": true
+        },
+        {
+          "seatID": 110,
+          "row": "J",
+          "num": 10,
+          "price": 15.0,
+          "status": true
+        }
+      ]
+    },
+    "seatIDs": []
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "hallID": 1,
+    "capacity": 100,
+    "seats": []
+  },
+  {
+    "hallID": 2,
+    "capacity": 100,
+    "seats": []
+  },
+  {
+    "hallID": 3,
+    "capacity": 100,
+    "seats": []
+  }
+
+]

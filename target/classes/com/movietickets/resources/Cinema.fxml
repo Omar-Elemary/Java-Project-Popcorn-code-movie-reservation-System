@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1025.0" prefWidth="730.0" style="-fx-background-color: #1A1D3A;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.movietickets.ui.Controller.CinemaController">
+   <children>
+      <Label layoutX="318.0" layoutY="-2.0" text="Cinema Page" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="318.0" layoutY="17.0" prefHeight="27.0" prefWidth="137.0" text="-------------------" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="212.0" layoutY="160.0" text="Cinema Name:" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="218.0" layoutY="239.0" text="Address:" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="218.0" layoutY="323.0" text="Hall Number:" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Text fill="WHITE" layoutX="364.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PopCorn Coders">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="352.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="123 Main Street, City">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="424.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="261.0" fitWidth="177.0" layoutX="278.0" layoutY="528.0" pickOnBounds="true" preserveRatio="true" scaleX="4.0" scaleY="2.0">
+         <image>
+            <Image url="@photos/Cinema(1).jpg" />
+         </image>
+      </ImageView>
+       <HBox layoutY="920.0" prefHeight="105.0" prefWidth="730.0" style="-fx-background-color: #2F2A6D;">
+           <children>
+               <VBox prefHeight="117.0" prefWidth="843.0">
+                   <children>
+                       <HBox prefHeight="56.0" prefWidth="843.0">
+                           <children>
+                               <Hyperlink fx:id="mylocation" onAction="#goLocation" prefHeight="56.0" prefWidth="191.0" text="our Location" textFill="#f5f5f5">
+                                   <font>
+                                       <Font name="System Italic" size="28.0" />
+                                   </font>
+                               </Hyperlink>
+                               <Hyperlink fx:id="home" onAction="#goHome" prefHeight="57.0" prefWidth="135.0" text="Home" textFill="#e8e8e8">
+                                   <font>
+                                       <Font name="System Italic" size="35.0" />
+                                   </font>
+                               </Hyperlink>
+                               <Hyperlink fx:id="mypdf" onAction="#downloadPDF" prefHeight="57.0" prefWidth="127.0" text="FAQ" textFill="WHITE">
+                                   <font>
+                                       <Font name="System Italic" size="35.0" />
+                                   </font>
+                               </Hyperlink>
+                               <Hyperlink prefHeight="46.0" prefWidth="242.0" text="Contact With US" textFill="WHITE">
+                                   <font>
+                                       <Font name="System Italic" size="28.0" />
+                                   </font>
+                               </Hyperlink>
+                               <Hyperlink id="myabout" fx:id="myabout" onAction="#goAbout" prefHeight="57.0" prefWidth="149.0" text="About" textFill="WHITE">
+                                   <font>
+                                       <Font name="System Italic" size="32.0" />
+                                   </font>
+                               </Hyperlink>
+                           </children>
+                       </HBox>
+                       <Label alignment="CENTER" prefHeight="48.0" prefWidth="845.0" text="Made by @Omar @Kareem @Kerolos @Mahmoud" textFill="WHITE" wrapText="true">
+                           <font>
+                               <Font name="System Italic" size="18.0" />
+                           </font>
+                       </Label>
+                   </children>
+               </VBox>
+           </children>
+       </HBox>
+       <Button fx:id="mymenuButton" mnemonicParsing="false" onAction="#ControllButtons" prefHeight="60.0" prefWidth="149.0" style="-fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #000000 0.0%, #30059e 100.0%);" text="☰" textFill="WHITE">
+           <font>
+               <Font size="20.0" />
+           </font>
+       </Button>
+       <VBox fx:id="myVboxButtons" layoutY="60.0" prefHeight="298.0" prefWidth="149.0" visible="false">
+           <children>
+               <Button fx:id="myhome" mnemonicParsing="false" onAction="#goHome" prefHeight="59.0" prefWidth="149.0" style="-fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #000000 0.0%, #30059e 100.0%); -fx-background-radius: 8;" text="Home" textFill="WHITE">
+                   <font>
+                       <Font name="System Bold Italic" size="26.0" />
+                   </font>
+               </Button>
+               <Button fx:id="myLogin" layoutX="357.0" layoutY="333.0" mnemonicParsing="false" onAction="#goLogin" prefHeight="59.0" prefWidth="167.0" style="-fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #000000 0.0%, #30059e 100.0%); -fx-background-radius: 8;" text="Login" textFill="WHITE">
+                   <font>
+                       <Font name="System Bold Italic" size="22.0" />
+                   </font>
+               </Button>
+               <Button fx:id="mymovie" mnemonicParsing="false" onAction="#goMovies" prefHeight="59.0" prefWidth="155.0" style="-fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #000000 0.0%, #30059e 100.0%); -fx-background-radius: 8;" text="Movies" textFill="WHITE">
+                   <font>
+                       <Font name="System Bold Italic" size="24.0" />
+                   </font>
+               </Button>
+               <Button fx:id="mycinema" mnemonicParsing="false" prefHeight="59.0" prefWidth="151.0" style="-fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #000000 0.0%, #30059e 100.0%); -fx-background-radius: 8;" text="Cinema" textFill="WHITE">
+                   <font>
+                       <Font name="System Bold Italic" size="23.0" />
+                   </font>
+               </Button>
+               <Button fx:id="mycontact" mnemonicParsing="false" onAction="#goContact" prefHeight="59.0" prefWidth="152.0" style="-fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #000000 0.0%, #30059e 100.0%); -fx-background-radius: 8;" text="Contact With US" textFill="WHITE">
+                   <font>
+                       <Font name="System Bold Italic" size="16.0" />
+                   </font>
+               </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

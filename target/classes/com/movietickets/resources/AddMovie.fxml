@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="650.0" prefWidth="850.0" style="-fx-background-color: #1A1D3A;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.movietickets.ui.Controller.AdminAddMovieController">
+   <children>
+      <Label alignment="CENTER" layoutY="20.0" text="Add Movie" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font name="System Bold Italic" size="28.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutY="55.0" text="--------------" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+
+      <Label layoutX="220.0" layoutY="100.0" text="MovieID:" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="myMovieID" layoutX="350.0" layoutY="100.0" prefHeight="30.0" prefWidth="250.0" promptText="Enter Movie ID" style="-fx-background-radius: 5;" />
+
+      <Label layoutX="220.0" layoutY="150.0" text="Title:" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="myTitle" layoutX="350.0" layoutY="150.0" prefHeight="30.0" prefWidth="250.0" promptText="Enter Movie Title" style="-fx-background-radius: 5;" />
+
+      <Label layoutX="220.0" layoutY="200.0" text="Description:" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="myDescription" layoutX="350.0" layoutY="200.0" prefHeight="30.0" prefWidth="250.0" promptText="Enter Description" style="-fx-background-radius: 5;" />
+
+      <Label layoutX="220.0" layoutY="250.0" text="Duration:" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="myDuration" layoutX="350.0" layoutY="250.0" prefHeight="30.0" prefWidth="250.0" promptText="Enter Duration" style="-fx-background-radius: 5;" />
+
+      <Label layoutX="220.0" layoutY="300.0" text="Category:" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="myCategory" layoutX="350.0" layoutY="300.0" prefHeight="30.0" prefWidth="250.0" promptText="Enter Category" style="-fx-background-radius: 5;" />
+
+      <Button fx:id="myok" layoutX="350.0" layoutY="360.0" mnemonicParsing="false" onAction="#goComplete" prefHeight="40.0" prefWidth="150.0" style="-fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #000000 0.0%, #30059e 100.0%); -fx-background-radius: 8;" text="OK" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+
+      <ProgressBar fx:id="myprogressbar" layoutX="325.0" layoutY="420.0" prefWidth="200.0" progress="0.0" visible="false" />
+
+      <Label fx:id="myDetails" layoutX="100.0" layoutY="440.0" text="Details:" textFill="WHITE" visible="false">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="mytextArea" editable="false" layoutX="100.0" layoutY="470.0" prefHeight="100.0" prefWidth="650.0" promptText="Details will appear here..." visible="false" />
+
+      <Button fx:id="myback" layoutX="325.0" layoutY="590.0" mnemonicParsing="false" onAction="#goAdmin" prefHeight="35.0" prefWidth="200.0" style="-fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #000000 0.0%, #30059e 100.0%); -fx-background-radius: 8;" text="Back to Admin Page" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

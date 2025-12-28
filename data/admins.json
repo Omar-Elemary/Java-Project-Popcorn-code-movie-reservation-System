@@ -1,0 +1,19 @@
+[
+  {
+    "email": "admin@cinema.com",
+    "id": 1000
+  },
+  {
+    "email": "ops@cinema.com",
+    "id": 1001
+  },
+  {
+    "email": "CTO@email.com",
+    "id": 1111
+  },
+  {
+    "email": "TL@email.com",
+    "id": 1005
+  }
+
+]

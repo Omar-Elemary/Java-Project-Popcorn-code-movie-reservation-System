@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="650.0" prefWidth="850.0" style="-fx-background-color: #1A1D3A;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.movietickets.ui.Controller.ContactController">
+    <children>
+
+        <VBox alignment="TOP_CENTER" layoutX="0.0" layoutY="0.0" prefHeight="550.0" prefWidth="850.0" spacing="25.0" AnchorPane.bottomAnchor="120.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <VBox alignment="CENTER" spacing="5.0">
+                    <children>
+                        <Label text="Contact Page" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold Italic" size="28.0" />
+                            </font>
+                        </Label>
+                        <Label text="-----------------" textFill="WHITE">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                        </Label>
+                    </children>
+                    <padding>
+                        <Insets top="20.0" />
+                    </padding>
+                </VBox>
+
+                <VBox alignment="CENTER" spacing="15.0">
+                    <children>
+                        <HBox alignment="CENTER" spacing="10.0">
+                            <children>
+                                <Label text="Tel:" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Bold" size="22.0" />
+                                    </font>
+                                </Label>
+                                <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="01245588888, 01175399999, 01550111111">
+                                    <font>
+                                        <Font size="18.0" />
+                                    </font>
+                                </Text>
+                            </children>
+                        </HBox>
+
+                        <Label text="OR" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="18.0" />
+                            </font>
+                        </Label>
+
+                        <HBox alignment="CENTER" spacing="10.0">
+                            <children>
+                                <Label text="Send Mail TO:" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Bold" size="22.0" />
+                                    </font>
+                                </Label>
+                                <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="PopCorn@Cinema.com">
+                                    <font>
+                                        <Font size="20.0" />
+                                    </font>
+                                </Text>
+                            </children>
+                        </HBox>
+                    </children>
+                </VBox>
+
+                <Label alignment="CENTER" text="If You have Any Question or Any Problem Don`t hesitate to ask for Help" textFill="WHITE" wrapText="true">
+                    <font>
+                        <Font name="System Italic" size="22.0" />
+                    </font>
+                    <padding>
+                        <Insets top="20.0" />
+                    </padding>
+                </Label>
+            </children>
+        </VBox>
+
+        <HBox alignment="CENTER" layoutY="530.0" prefHeight="120.0" prefWidth="850.0" style="-fx-background-color: #2F2A6D;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+            <children>
+                <VBox alignment="CENTER" prefHeight="120.0" prefWidth="850.0" HBox.hgrow="ALWAYS">
+                    <children>
+                        <HBox alignment="CENTER" prefHeight="60.0" prefWidth="843.0" spacing="15">
+                            <children>
+                                <Hyperlink fx:id="mylocation" onAction="#goLocation" text="Our Location" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Italic" size="24.0" />
+                                    </font>
+                                </Hyperlink>
+                                <Hyperlink fx:id="home" onAction="#goHome" text="Home" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Italic" size="24.0" />
+                                    </font>
+                                </Hyperlink>
+                                <Hyperlink fx:id="mypdf" onAction="#downloadPDF" text="FAQ" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Italic" size="24.0" />
+                                    </font>
+                                </Hyperlink>
+                                <Hyperlink text="Contact With US" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Italic" size="24.0" />
+                                    </font>
+                                </Hyperlink>
+                                <Hyperlink fx:id="myabout" onAction="#goAbout" text="About" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Italic" size="24.0" />
+                                    </font>
+                                </Hyperlink>
+                            </children>
+                        </HBox>
+                        <Label alignment="CENTER" text="Made by @Omar @Kareem @Kerolos @Mahmoud CopyRight@2025" textFill="WHITE" wrapText="true">
+                            <font>
+                                <Font name="System Italic" size="16.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </VBox>
+            </children>
+        </HBox>
+
+        <Button fx:id="mymenuButton" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#ControllButtons" prefHeight="50.0" prefWidth="60.0" style="-fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #000000 0.0%, #30059e 100.0%); -fx-background-radius: 5;" text="☰" textFill="WHITE" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+
+        <VBox fx:id="myVboxButtons" layoutX="10.0" layoutY="70.0" prefHeight="298.0" prefWidth="149.0" visible="false" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="70.0">
+            <children>
+                <Button fx:id="myhome" mnemonicParsing="false" onAction="#goHome" prefHeight="59.0" prefWidth="149.0" style="-fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #000000 0.0%, #30059e 100.0%); -fx-background-radius: 8;" text="Home" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold Italic" size="26.0" />
+                    </font>
+                </Button>
+                <Button fx:id="myLogin" layoutX="357.0" layoutY="333.0" mnemonicParsing="false" onAction="#goLogin" prefHeight="59.0" prefWidth="167.0" style="-fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #000000 0.0%, #30059e 100.0%); -fx-background-radius: 8;" text="Login" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold Italic" size="22.0" />
+                    </font>
+                </Button>
+                <Button fx:id="mymovie" mnemonicParsing="false" onAction="#goMovies" prefHeight="59.0" prefWidth="155.0" style="-fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #000000 0.0%, #30059e 100.0%); -fx-background-radius: 8;" text="Movies" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold Italic" size="24.0" />
+                    </font>
+                </Button>
+                <Button fx:id="mycinema" mnemonicParsing="false" onAction="#goCinema" prefHeight="59.0" prefWidth="151.0" style="-fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #000000 0.0%, #30059e 100.0%); -fx-background-radius: 8;" text="Cinema" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold Italic" size="23.0" />
+                    </font>
+                </Button>
+                <Button fx:id="mycontact" mnemonicParsing="false" prefHeight="59.0" prefWidth="152.0" style="-fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #000000 0.0%, #30059e 100.0%); -fx-background-radius: 8;" text="Contact With US" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold Italic" size="16.0" />
+                    </font>
+                </Button>
+            </children>
+        </VBox>
+
+    </children>
+</AnchorPane>
